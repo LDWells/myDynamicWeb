@@ -1,0 +1,64 @@
+    html{
+    background-color:tan;
+    }
+
+    body {
+    color: brown;
+    font-family: sans-serif;
+    }
+    h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d1633c;
+    margin-top: 30px;
+    }
+    h2{
+    color: #d1633c;
+    font-size: 1.5em;
+    }
+    dt{
+    color: #d1633c;
+    font-size: 1em;
+    }
+
+    a:link{
+    color:brown;
+    }
+    a:visited{
+        color: brown;
+    }
+    a:hover{
+    color:gainsboro;
+    }
+    .rotated-image {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+    }
+    .collapsible {
+        background-color: tan;
+        color: #d1633c;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 25px;
+        font-weight: bold;
+        /* margin-top: 4%; */
+    
+    }
+    
+    .active, .collapsible:hover {
+      background-color: rosybrown;
+    }
+    
+    .content {
+      text-align: left;
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: tan;
+    }

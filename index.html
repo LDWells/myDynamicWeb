@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <meta charset="utf-8">
+    <title>E-Luvs SoulFood Kitchen</title>
+
+  </head>
+
+<body>
+  <h1>E-Luvs SoulFood Kitchen</h1>
+
+  <h2>Menu</h2>
+  
+  <dl>
+    <dt>Jumbolaya 12.99</dt>
+    <dd>Spicy Homemade Cajun Jambalaya with sausage, ground beef, shrimp, and seasoned with herbs.</dd>
+    <img src="./images/jumbolaya.jpg" height="150" width="150">
+    
+<br>
+    <dt id="fish">Fried Catfish 9.99</dt>
+    <dd>Deep fried, golden brown, flaky catfish marinated in creamy buttermilk, coated with a crispy cornmeal batter.</dd>
+    <img src="./images/catfish.jpg" height="150" width="150">
+<br>
+    <dt><p id="ribs">BBQ Ribs 10.99</p></dt>
+    <dd>Pork ribs rubbed with a blend of earthy spices and brushed with a slowly simmered sauce that has a slight kick.</dd>
+    <img src="./images/ribs.jpg" height="150" width="150">
+  </dl>
+
+<h2 class="collapsible">Ingredients for Jumbolaya</h2>  
+<div class="content">
+  <ul>
+    <li>Zatarina Mix</li>
+    <li>Ground beef</li>
+    <li>Sliced Suasage</li>
+    <li>Peeled Shrimp</li>
+  </ul>
+</div>
+  <br>
+
+  <h2 class="collapsible">Ingredients for Fried Catfish</h2>
+  <div class="content">
+  <ul>
+    <li>Salt</li>
+    <li>seasoned Salt</li>
+    <li>Garlic Powder</li>
+    <li>Seafood Seasoning</li>
+    <li>All-purpose Flour</li>
+  </ul>
+</div>
+<br>
+
+<h2 class="collapsible">Ingredients for BBQ Ribs</h2>
+<div class="content">
+<ul>
+  <li>Brown Sugar</li>
+  <li>Garlic Powder</li>
+  <li>Salt</li>
+  <li>Seasoned Salt</li>
+  <li>BBQ Sauce</li>
+</ul>
+</div>
+<br>
+<h3>
+  <h2 id="box1">For more ingredients, please fill out the from below</h2>
+</h3>
+<form action = "index.html" name = "myForm" onsubmit = "validate();"  method="GET">
+
+  <fieldset>
+    <legend id="info">Customer Information</legend>
+
+    Name: <input type="text" id="NAME" name="fullname"><br>
+     Email: <input type="text" id="emailID" name="email"><br>
+     <input onclick="myFunction()" type="submit" value="Submit">
+
+  </fieldset>
+  </form>
+
+  <h2>For Nutritional Facts, click on the nutrition button below </h2>
+  <fieldset>
+  <nav>
+      <a href="./nutritions.html"> Nutrition </a>
+  </nav>
+</fieldset>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="./styles/dropDown.js"></script>
+    <script type="text/javascript">
+       function myFunction() {
+         confirm("Thank you! An Email will be sent to you shortly!");
+       }
+     </script>
+
+</body>
+
+<footer> <p> <small> Copyright &copy 2022 LaDarion Wells </small> </p>
+</footer>
+
+</html>
